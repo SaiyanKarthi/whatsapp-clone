@@ -3,9 +3,9 @@ import {  BrowserRouter as Router, Routes,Route} from 'react-router-dom'
 import './App.css'
 
 import { useStateValue } from './components/ContextApi/StateProvider'
-import Login from './components/Login/Login'
-import Chat from './components/Chat/chat'
-import Sidebar from './components/sidebar/sidebar'
+import Login from './components/Login/Login.jsx'
+import Chat from './components/Chat/Chat.jsx'
+import Sidebar from './components/sidebar/Sidebar.jsx'
 
 
 const App =()=> {
